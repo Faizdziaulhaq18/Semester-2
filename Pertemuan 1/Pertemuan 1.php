@@ -10,6 +10,10 @@
     echo 'Dokumen Root'.$_SERVER["DOCUMENT_ROOT"];
     echo "<br />";
 
+    // Info PHP
+    phpinfo();
+
+
     // Variable Konstan
     define ('makanan', 'sushi');
     echo makanan;
