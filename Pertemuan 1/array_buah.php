@@ -1,6 +1,6 @@
 <?php
 
-    //$mahasiswa = 'Raihan';
+    //$mahasiswa = 'Faiz';
     //Array (variable yang bisa menyimpan nilai lebih dari 1)
     $mahasiswa = ['Faiz','Dzia','Ulhaq'];
 
@@ -30,6 +30,7 @@
 
     //Test variable array multi dimensi
     //var_dump($mahasiswas);
+
 
     //Print Array multi dimensi
     echo $mahasiswas[0]["nama"];
