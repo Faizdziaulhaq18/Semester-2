@@ -1,9 +1,9 @@
 <?php
 require_once "class_accountBank.php";
 
-$b1 = new akun('C001','Jarwo', number_format(6000000,0,".","."));
-$b2 = new akun('C002','Kevin', number_format(5350000,0,".","."));
-$b3 = new akun('C003','Kurniawan',number_format(2500000,0,".","."));
+$b1 = new akun('C001','Jamal', number_format(6000000,0,".","."));
+$b2 = new akun('C002','Leman', number_format(5350000,0,".","."));
+$b3 = new akun('C003','Kido',number_format(2500000,0,".","."));
 $bank = [$b1,$b2,$b3];
 ?>
 
@@ -18,15 +18,15 @@ $bank = [$b1,$b2,$b3];
 </head>
 <body>
     <table class="table">
-        <h1 class="text-center mt-3">Bank Jey</h1>
+        <h1 class="text-center mt-3">Bank D</h1>
         <div class="container-fluid mb-3">
             <div class="row">
                 <div class="col-md-5">
                 <blockquote class="blockquote">
                 <p>Aktivitas :</p>
                 </blockquote>
-                <p class="lead">Jarwo nabung Rp. 1.000.000 <br>
-                Kevin tarik uang Rp. 2.500.000</p>
+                <p class="lead">Jamal nabung Rp. 1.000.000 <br>
+                Leman tarik uang Rp. 2.500.000</p>
                 </div>
             </div>
         </div>
