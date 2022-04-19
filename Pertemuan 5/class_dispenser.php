@@ -24,7 +24,7 @@ echo $air -> set_volume("Volumenya adalah 1000 ML");
 echo "<br>";
 echo $air -> set_hargaSegelas("Harga segelasnya adalah Rp.". number_format("3000",0,".","."));
 echo "<br>";
-echo "Jundi membeli air 1 gelas yang bervolume ". Dispenser::volumeGelas;
+echo "Faiz membeli air 1 gelas yang bervolume ". Dispenser::volumeGelas;
 echo "<br>";
 $air->pengurangan(1000);
 ?>
